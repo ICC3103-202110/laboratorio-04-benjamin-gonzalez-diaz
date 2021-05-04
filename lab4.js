@@ -1,4 +1,8 @@
-console.log("hola")
+const ps = require("prompt-sync");
+const prompt = ps();
+
+let name = prompt("Enter your name: ");
+console.log(`Hello ${name}`)
 function View(counter){
     return ('Contador: '+counter+' \n (+)(-)\n(q)');
 }
