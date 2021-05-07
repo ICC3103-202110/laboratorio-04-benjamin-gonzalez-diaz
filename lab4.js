@@ -20,7 +20,8 @@ function App(counter){
         const actualView = View(counter);
         console.clear();
         console.log(actualView);
-        let sign = prompt("que quiere hacer: \n\n(+)(-)\n(q) para salir \n\n");
+        console.log(" \n\n(+)(-)\n(q) para salir \n\n")
+        let sign = prompt("que quiere hacer: ");
         if(sign == 'q'){
             break;
         }
