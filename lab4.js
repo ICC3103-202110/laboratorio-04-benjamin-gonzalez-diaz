@@ -28,5 +28,5 @@ function App(counter){
         counter = update(sign,counter);
     }
 }
-console.log(App(0));
+(App(0));
 //node lab4.js
